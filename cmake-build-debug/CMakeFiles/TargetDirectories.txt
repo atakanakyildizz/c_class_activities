@@ -1,0 +1,4 @@
+/Users/atakanakyildiz/CLionProjects/c_class_activities/cmake-build-debug/CMakeFiles/c_class_activities.dir
+/Users/atakanakyildiz/CLionProjects/c_class_activities/cmake-build-debug/CMakeFiles/second_class.dir
+/Users/atakanakyildiz/CLionProjects/c_class_activities/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/atakanakyildiz/CLionProjects/c_class_activities/cmake-build-debug/CMakeFiles/rebuild_cache.dir
