@@ -5,6 +5,10 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(c_class_activities
     25_09_2024_first_class/isprime.c
-        27_09_2024_second_class/second_class.c)
+        27_09_2024_second_class/second_class.c
+        01_10_2024_third_class/third_class.c
+        15_10_2024_class/matrix.c)
 
 add_executable(second_class 27_09_2024_second_class/second_class.c)
+add_executable(third_class 01_10_2024_third_class/third_class.c)
+add_executable(matrix 15_10_2024_class/matrix.c)

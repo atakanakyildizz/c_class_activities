@@ -1,6 +1,7 @@
 //
-// Created by Atakan Akyıldız on 27.09.2024.
+// Created by Atakan Akyildiz on 27.09.2024.
 //
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -32,9 +33,10 @@ void biggest(int arr[], int n) {
 int main() {
     srand(time(NULL));
     int array[SIZE];
+
     for (int i = 0; i < SIZE; i++){
-        array[i] = rand() % 50 + 1;
-}
+        array[i] = rand() % 200 - 100;
+    }
     printf("Array before sorting:\n");
     for (int i = 0; i < SIZE; i++){
         printf(" %d", array[i]);;

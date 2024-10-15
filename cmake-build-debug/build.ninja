@@ -61,6 +61,18 @@ build CMakeFiles/c_class_activities.dir/27_09_2024_second_class/second_class.c.o
   OBJECT_DIR = CMakeFiles/c_class_activities.dir
   OBJECT_FILE_DIR = CMakeFiles/c_class_activities.dir/27_09_2024_second_class
 
+build CMakeFiles/c_class_activities.dir/01_10_2024_third_class/third_class.c.o: C_COMPILER__c_class_activities_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_class_activities/01_10_2024_third_class/third_class.c || cmake_object_order_depends_target_c_class_activities
+  DEP_FILE = CMakeFiles/c_class_activities.dir/01_10_2024_third_class/third_class.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/c_class_activities.dir
+  OBJECT_FILE_DIR = CMakeFiles/c_class_activities.dir/01_10_2024_third_class
+
+build CMakeFiles/c_class_activities.dir/15_10_2024_class/matrix.c.o: C_COMPILER__c_class_activities_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_class_activities/15_10_2024_class/matrix.c || cmake_object_order_depends_target_c_class_activities
+  DEP_FILE = CMakeFiles/c_class_activities.dir/15_10_2024_class/matrix.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/c_class_activities.dir
+  OBJECT_FILE_DIR = CMakeFiles/c_class_activities.dir/15_10_2024_class
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target c_class_activities
@@ -69,7 +81,7 @@ build CMakeFiles/c_class_activities.dir/27_09_2024_second_class/second_class.c.o
 #############################################
 # Link the executable c_class_activities
 
-build c_class_activities: C_EXECUTABLE_LINKER__c_class_activities_Debug CMakeFiles/c_class_activities.dir/25_09_2024_first_class/isprime.c.o CMakeFiles/c_class_activities.dir/27_09_2024_second_class/second_class.c.o
+build c_class_activities: C_EXECUTABLE_LINKER__c_class_activities_Debug CMakeFiles/c_class_activities.dir/25_09_2024_first_class/isprime.c.o CMakeFiles/c_class_activities.dir/27_09_2024_second_class/second_class.c.o CMakeFiles/c_class_activities.dir/01_10_2024_third_class/third_class.c.o CMakeFiles/c_class_activities.dir/15_10_2024_class/matrix.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/c_class_activities.dir
   POST_BUILD = :
@@ -108,6 +120,68 @@ build second_class: C_EXECUTABLE_LINKER__second_class_Debug CMakeFiles/second_cl
   TARGET_FILE = second_class
   TARGET_PDB = second_class.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target third_class
+
+
+#############################################
+# Order-only phony target for third_class
+
+build cmake_object_order_depends_target_third_class: phony || .
+
+build CMakeFiles/third_class.dir/01_10_2024_third_class/third_class.c.o: C_COMPILER__third_class_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_class_activities/01_10_2024_third_class/third_class.c || cmake_object_order_depends_target_third_class
+  DEP_FILE = CMakeFiles/third_class.dir/01_10_2024_third_class/third_class.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/third_class.dir
+  OBJECT_FILE_DIR = CMakeFiles/third_class.dir/01_10_2024_third_class
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target third_class
+
+
+#############################################
+# Link the executable third_class
+
+build third_class: C_EXECUTABLE_LINKER__third_class_Debug CMakeFiles/third_class.dir/01_10_2024_third_class/third_class.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/third_class.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = third_class
+  TARGET_PDB = third_class.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target matrix
+
+
+#############################################
+# Order-only phony target for matrix
+
+build cmake_object_order_depends_target_matrix: phony || .
+
+build CMakeFiles/matrix.dir/15_10_2024_class/matrix.c.o: C_COMPILER__matrix_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_class_activities/15_10_2024_class/matrix.c || cmake_object_order_depends_target_matrix
+  DEP_FILE = CMakeFiles/matrix.dir/15_10_2024_class/matrix.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/matrix.dir
+  OBJECT_FILE_DIR = CMakeFiles/matrix.dir/15_10_2024_class
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target matrix
+
+
+#############################################
+# Link the executable matrix
+
+build matrix: C_EXECUTABLE_LINKER__matrix_Debug CMakeFiles/matrix.dir/15_10_2024_class/matrix.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/matrix.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = matrix
+  TARGET_PDB = matrix.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -142,7 +216,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/atakanakyildiz/CLionProjects/c_class_activities/cmake-build-debug
 
-build all: phony c_class_activities second_class
+build all: phony c_class_activities second_class third_class matrix
 
 # =============================================================================
 # Built-in targets
